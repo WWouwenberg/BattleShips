@@ -52,7 +52,7 @@ namespace ValidatorTests
         public void TestCase2()
         {
             /*arrange*/
-            int[,] field = new int[10, 10]
+            int[,] field = 
             { {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                 {0, 1, 1, 0, 1, 0, 0, 1, 1, 0},
                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -72,7 +72,7 @@ namespace ValidatorTests
         public void TestCase3()
         {
             /*arrange*/
-            int[,] field = new int[10, 10]
+            int[,] field = 
             { {0, 1, 1, 0, 0, 0, 0, 0, 1, 0},
                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                 {1, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -92,7 +92,7 @@ namespace ValidatorTests
         public void TestCase4()
         {
             /*arrange*/
-            int[,] field = new int[10, 10]
+            int[,] field = 
             { {0, 1, 1, 1, 0, 0, 0, 0, 1, 0},
                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                 {0, 0, 0, 1, 0, 0, 0, 0, 0, 1},
@@ -112,7 +112,7 @@ namespace ValidatorTests
         public void TestCase5()
         {
             /*arrange*/
-            int[,] field = new int[10, 10]
+            int[,] field = 
             { {0, 0, 0, 0, 0, 0, 1, 1, 1, 0},
                 {0, 0, 1, 0, 0, 0, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0, 1, 1, 0, 1, 0},
@@ -132,7 +132,7 @@ namespace ValidatorTests
         public void TestCase6()
         {
             /*arrange*/
-            int[,] field = new int[10, 10]
+            int[,] field = 
             { {0, 0, 1, 0, 0, 0, 0, 1, 0, 0},
                 {1, 0, 1, 0, 1, 1, 0, 0, 0, 1},
                 {1, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -152,7 +152,7 @@ namespace ValidatorTests
         public void TestCase7()
         {
             /*arrange*/
-            int[,] field = new int[10, 10]
+            int[,] field = 
             {   {1, 0, 0, 0, 0, 1, 1, 0, 0, 0},
                 {1, 0, 1, 0, 0, 0, 0, 0, 1, 0},
                 {1, 0, 1, 0, 1, 1, 1, 0, 1, 0},
@@ -172,7 +172,7 @@ namespace ValidatorTests
         public void TestCase8()
         {
             /*arrange*/
-            int[,] field = new int[10, 10] {
+            int[,] field =  {
                 {0, 0, 0, 1, 0, 0, 0, 0, 0, 0},
                 {0, 1, 0, 1, 0, 0, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
@@ -192,7 +192,7 @@ namespace ValidatorTests
         public void TestCase9()
         {
             /*arrange*/
-            int[,] field = new int[10, 10]
+            int[,] field = 
             { {1, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                 {1, 0, 0, 0, 0, 1, 0, 0, 0, 0},
                 {1, 0, 0, 0, 0, 1, 0, 0, 0, 1},
@@ -212,7 +212,7 @@ namespace ValidatorTests
         public void TestCase10()
         {
             /*arrange*/
-            int[,] field = new int[10, 10]
+            int[,] field = 
             { {0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
                 {0, 1, 1, 0, 0, 1, 0, 0, 0, 1},
                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
@@ -232,7 +232,7 @@ namespace ValidatorTests
         public void TestCase11()
         {
             /*arrange*/
-            int[,] field = new int[10, 10]
+            int[,] field = 
             { {1, 0, 0, 0, 0, 1, 0, 0, 0, 1},
                 {0, 0, 0, 1, 0, 0, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
@@ -252,7 +252,7 @@ namespace ValidatorTests
         public void TestCase12()
         {
             /*arrange*/
-            int[,] field = new int[10, 10] {
+            int[,] field =  {
                 {1, 0, 1, 0, 1, 0, 1, 0, 1, 0},
                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                 {1, 0, 1, 0, 1, 0, 1, 0, 1, 0},
